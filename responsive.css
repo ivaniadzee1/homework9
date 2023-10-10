@@ -1,0 +1,83 @@
+@media (width > 1440px){
+    body{
+        font-family:  'Poppins';
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        padding: 85px 59px;
+        background: #efeff1;
+        overflow-x: hidden;
+    }
+    
+    .main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+    }
+    .div1,.div2,.div3,.div4{
+        margin-top: 75px;
+        background-color: #fff;
+        padding: 45px;
+        border-radius: 9px;
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        justify-content: center;
+        width: 390px;
+    }
+    .img1{
+        position: relative;
+        left: 240px;
+    }
+    .ln{
+        width: 350px;
+    }
+    .rl{
+        position: absolute;
+        top: -35px;
+        left:  120px;
+    }
+    .pw{
+        position: absolute;
+        top: -12px;
+        padding: 10px;
+        left: 120px;
+    }
+    .ou{
+        position: relative;
+        top: -100px;
+        width: 540px;
+    }
+    .dv{
+        width: 350px;
+        height: 250px;
+        border-radius: 8px;
+        background: #FFF;
+        box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.50);
+    }
+    .div1{
+        position: absolute;
+        left: -270px;
+        top:170px;
+    }
+    .div2{
+        position: absolute;
+        margin-top: 25px;
+        left: 105px;
+       
+    }
+    .div3{
+      position: absolute;
+      top: 320px;
+      left: 105px;
+    }
+    .div4{
+        position: absolute;
+       left: 480px;
+       top: 168px;
+    }
+}
